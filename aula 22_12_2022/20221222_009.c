@@ -16,7 +16,8 @@ int main()
   xmax = 0;
   ymax = 0;
   valormax = 0;
-
+	
+for (x = 0; x <= n; x++)
     {
       for (y = 0; y <= m; y++)
 	{
@@ -30,7 +31,7 @@ int main()
 	}
     }
 
-  printf("O Valor maximo da funcao é igual a = %d com x = %d e y = %d\n",
+  printf("O Valor maximo da funcao Ã© igual a = %d com x = %d e y = %d\n",
           valormax, xmax, ymax);
 
   return 0;
