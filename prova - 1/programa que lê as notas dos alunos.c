@@ -1,15 +1,14 @@
 
-@@ -0,0 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
 
 int main() {
     float nota, maior, menor, soma = 0, cont = 0;
-    while (1) {
-        printf("Entre com a nota do aluno: ");
+    do{
+        printf("Entre com a nota do aluno(para executar digite 123): ");
         scanf("%f", &nota);
-        if (nota < 0) {
-            break;
+        if(nota<0){
+            exit(0);
         }
         if (cont == 0) {
             maior = nota;
@@ -24,7 +23,7 @@ int main() {
         }
         soma += nota;
         cont++;
-    }
+    }while(nota != 123);
     printf("Maior nota: %.2f\n", maior);
     printf("Menor nota: %.2f\n", menor);
     printf("Media da turma: %.2f\n", soma / cont);
