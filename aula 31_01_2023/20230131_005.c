@@ -6,9 +6,8 @@ int main()
     int deslocamento = 3;
     int i;
    
-    printf("Digite a mensagem a ser codificada:");
-    scanf("%s", &msg);
-   
+    gets(msg, 101, stdin);
+    
     for(i=0; i<101; i++)
     {
         if (msg[i] >= 'a' && msg[i] <= 'z')
