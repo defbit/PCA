@@ -4,7 +4,7 @@
 int imprime_vetor(int *inicio, int *fim){
     int cont = 0;
     for(; inicio<= fim; inicio++){
-        if (*inicio == 100){
+        if (*inicio == 2){
             printf("%dº 2 encontrado: %p", cont+1, inicio);
             printf("\n");
             cont++;
