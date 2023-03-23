@@ -1,13 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
 
-int main() {
-    int m = 2; 
-    int n = 3; 
-
-    
-    int **matriz = (int **) malloc(m * sizeof(int *));
-    for (int i = 0; i < m; i++) {
 #include <stdio.h>
 #include <stdlib.h>
 
